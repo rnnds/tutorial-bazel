@@ -1,5 +1,5 @@
 public class Foo{
     public static String process(){
-        return "foo";
+        return "foo" + Bar.process();
     }
 }

@@ -1,6 +1,7 @@
 java_library(
     name = "foo",
     srcs = glob(["src/main/java/Foo.java"]),
+    deps = ["//bar"],
 )
 
 java_test(
